@@ -1,0 +1,28 @@
+<template>
+  <div id="app">
+    <div style="height: 100%; width: 100%; border: 1px solid red; position: relative;">
+      <!-- <vue-draggable-resizable :w="400" :h="400" :parent="true" :min-width="200" :min-height="100">
+        <p>vue-draggable-resizable</p>
+      </vue-draggable-resizable> -->
+      test
+    </div>
+  </div>
+</template>
+
+<script>
+import VueDraggableResizable from './components/vue-draggable-resizable'
+import './components/vue-draggable-resizable.css'
+
+export default {
+  name: 'app',
+  components: {
+    VueDraggableResizable
+  }
+}
+</script>
+
+<style>
+  .vdr {
+    border: 1px dashed black;
+  }
+</style>
